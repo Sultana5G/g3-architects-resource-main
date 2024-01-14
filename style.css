@@ -65,6 +65,44 @@ margin: 0 auto;
     width: 100%;
 
 }
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* team style start*/
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.team-tile{
+    font-size: 2.8rem;
+}
+
+.span1{
+    color: #727272;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+.span2{
+    font-size: 2.8rem;
+}
+.span3{
+    color: #FF900E;
+    font-weight:700;
+    font-size: 2.8rem;
+}
+
+/* team style end */
 /* reswponsive media queries */
 
 /* mobile devices */
